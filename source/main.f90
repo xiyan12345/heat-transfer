@@ -4,6 +4,7 @@ program main
     use read_Mesh
     use init
     use Boundary
+    use CFL
     use residual
     use post_Process
     implicit none
@@ -22,32 +23,35 @@ program main
 
    ! 迭代计算开始
 
-    ! 边界信息交换存在一个问题：没考虑清楚
+   ! 边界信息交换存在一个问题：没考虑清楚
     real_time = 0._dp
     call calculate_dt()                         ! 确定时间步长（未完成）
     do iStep = 1, total_Step
         real_Time = real_Time+dt
-        call exchange_Inner_Boundary()          ! 内边界信息交换
-
+        ! 每次时间推进，先暂存原始场变量
         do m = 1, num_Block
             B => mesh(m)
             B%Un(:,:,:,:) = B%U(:,:,:,:)
-
-            do subStep = 1, RKn
-
-               ! 更新内部边界条件(未完成)
-                call upgrade_Boundary()         
-               ! 计算残差（未完成）
-                call compute_Residual()
-               ! 更新块变量（未完成）
-                B%U(:,:,:,:) = Ralpha(subStep)*B%Un(:,:,:,:)+Rgamma*B%U(:,:,:,:)+Rbeta*B%res(:,:,:,:)*dt
-            end do
         end do
+
+        do subStep = 1, RKn                     ! 龙格-库塔推进
+           ! 对所有块更新块上虚网格(未完成)
+            call upgrade_Ghost_Cell()           
+        !    ! 对所有块计算残差（未完成）
+        !     call compute_Residual()             
+        !    ! 更新所有块的内部物理量
+        !     do m = 1, num_Block
+        !         B => mesh(m)
+        !         B%U(:,:,:,:) = Ralpha(subStep)*B%Un(:,:,:,:)+Rgamma(subStep)*B%U(:,:,:,:)+Rbeta(subStep)*B%res(:,:,:,:)*dt
+        !     end do
+
+        end do
+ 
     end do
 
     
     
-    ! call save_Tecplot1("../resource/output/result.plt")
+    call save_Tecplot("../resource/output/result.plt")
 
     
     write(un_print,*) "Successful !!!"
