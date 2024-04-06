@@ -1,0 +1,13 @@
+# The fortran modules provided by this target.
+provides
+ block_type_def.mod
+ boundary.mod
+ cfl.mod
+ const_var.mod
+ global_var.mod
+ init.mod
+ post_process.mod
+ precision_ec.mod
+ read_mesh.mod
+ read_parameter.mod
+ residual.mod

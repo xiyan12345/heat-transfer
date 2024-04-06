@@ -1,0 +1,31 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "cmake",
+            "options": {
+                "cwd": "${workspaceRoot}/build"
+            },
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                ".",
+                "-G",
+                "MinGW Makefiles",
+                "-B",
+                "./build"
+            ]
+        },
+        {
+            "label": "make",
+            "options": {
+                "cwd": "${workspaceRoot}/build/build"
+            },
+            "type": "shell",
+            "command": "make",
+            "dependsOn": [
+                "cmake"
+            ]
+        }
+    ]
+}

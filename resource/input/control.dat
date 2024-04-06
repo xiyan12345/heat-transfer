@@ -1,0 +1,45 @@
+input file: describe input parameter
+&prj
+project_Name = "2D-flat"
+iDim    = 3
+gscale  = 1.0
+/
+
+&step
+total_Step = 1000
+kStep_Save = 100
+Iflag_init = .true.
+continued_File = ""
+/
+
+&files
+mesh_File = "../resource/input/2D-flat.dat"
+inp_File  = "../resource/input/2D-flat.inp"
+save_Dir  = "../resource/output/"
+/
+
+&material
+rho = 900
+cp  = 20
+kh   = 2
+/
+
+&wallq
+wallq_Iso = .true.
+wallq_Iso_q = 100
+wallq_qfile = ""
+/
+
+&wallc
+wallc_Iso = .true.
+wallc_Iso_CH = 10
+wallc_Iso_T  = 283.15
+wallc_CHfile = ""
+wallc_Tfile  = ""
+/
+
+&initT
+initT_Iso = .true.
+initT_Iso_T = 293.15
+initT_Tfile = ""
+/
