@@ -16,7 +16,8 @@
            ! »∑∂® min_delt(¥÷¬‘À„)
             min_delt = 0
            ! º∆À„dt
-            dt = CFL_Value*min_delt/1
+            ! dt = CFL_Value*min_delt/1
+            dt = 50
         end subroutine
         
     end module CFL

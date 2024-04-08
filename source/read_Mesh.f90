@@ -648,6 +648,8 @@
                         S6(1) = B%nk1(i,j,k+1); S6(2) = B%nk2(i,j,k+1) ; S6(3) = B%nk3(i,j,k+1) 
                         ! 计算体积
                         B%vol(i,j,k) = compute_Volume2(p1,p2,p3,p4,p5,p6,p7,p8,S1,S2,S3,S4,S5,S6)
+                        write(*,*) compute_Volume2(p1,p2,p3,p4,p5,p6,p7,p8,S1,S2,S3,S4,S5,S6)
+                        write(*,*) compute_Volume1(p1,p2,p3,p4,p5,p6,p7,p8)
                     end do
                 end do
             end do
@@ -688,7 +690,7 @@
             real(dp),dimension(3)       :: S1,S2,S3,S4,S5,S6
             real(dp),dimension(3)       :: r1,r2,r3,r4,r5,r6
 
-           ! 计算面矢量
+           ! 计算面同向矢量
             ! 计算i-面
             S1 = compute_S(p1,p3,p5,p7)
             ! 计算j-面

@@ -5,6 +5,7 @@
     module residual
         use global_Var
         use Boundary
+        use Flux
         implicit none
         
     contains
@@ -27,9 +28,34 @@
                 allocate(Fk(nVar,B%nx-1,B%ny-1,B%nz)) 
 
                ! 针对每一块计算边界面通量(未完成)
-                call upgrade_Boundary(B,Fi,Fj,Fk)   ! 这个是编译器有问题
+                call upgrade_Boundary(B,Fi,Fj,Fk)   
 
                ! 计算每一块内部面通量(未完成)
+                ! 计算I向面的通量
+                do k = 1, B%nz-1
+                    do j = 1, B%ny-1
+                        do i = 2, B%nx-1
+                            Fi(1,i,j,k) = viscous_Flux_I(B,i,j,k)
+                        end do
+                    end do
+                end do
+                ! 计算J向面的通量
+                do k = 1, B%nz-1
+                    do j = 2, B%ny-1
+                        do i = 1, B%nx-1
+                            FJ(1,i,j,k) = viscous_Flux_J(B,i,j,k)
+                        end do
+                    end do
+                end do
+                ! 计算K向面的通量
+                do k = 2, B%nz-1
+                    do j = 1, B%ny-1
+                        do i = 1, B%nx-1
+                            FK(1,i,j,k) = viscous_Flux_K(B,i,j,k)
+                        end do
+                    end do
+                end do
+                
                ! 计算每一块所有单元的残差量(未完成)
                 do K = 1, B%nz-1
                     do J = 1, B%ny-1

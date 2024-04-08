@@ -37,8 +37,8 @@ program main
         do subStep = 1, RKn                     ! 龙格-库塔推进
            ! 对所有块更新块上虚网格(未完成)
             call upgrade_Ghost_Cell()           
-        !    ! 对所有块计算残差（未完成）
-        !     call compute_Residual()             
+           ! 对所有块计算残差（未完成）
+            call compute_Residual()             
         !    ! 更新所有块的内部物理量
         !     do m = 1, num_Block
         !         B => mesh(m)
@@ -51,7 +51,7 @@ program main
 
     
     
-    call save_Tecplot("../resource/output/result.plt")
+    call save_Tecplot_Debug("../resource/output/result.plt")
 
     
     write(un_print,*) "Successful !!!"
@@ -60,3 +60,5 @@ program main
     read(*,*) 
     
 end program main
+
+

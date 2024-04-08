@@ -128,6 +128,30 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+D_/yanghao/code/Fortran/heat_transfer/source/Boundary.obj: D_/yanghao/code/Fortran/heat_transfer/source/Boundary.f90.obj
+.PHONY : D_/yanghao/code/Fortran/heat_transfer/source/Boundary.obj
+
+# target to build an object file
+D_/yanghao/code/Fortran/heat_transfer/source/Boundary.f90.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/Boundary.f90.obj
+.PHONY : D_/yanghao/code/Fortran/heat_transfer/source/Boundary.f90.obj
+
+D_/yanghao/code/Fortran/heat_transfer/source/Boundary.i: D_/yanghao/code/Fortran/heat_transfer/source/Boundary.f90.i
+.PHONY : D_/yanghao/code/Fortran/heat_transfer/source/Boundary.i
+
+# target to preprocess a source file
+D_/yanghao/code/Fortran/heat_transfer/source/Boundary.f90.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/Boundary.f90.i
+.PHONY : D_/yanghao/code/Fortran/heat_transfer/source/Boundary.f90.i
+
+D_/yanghao/code/Fortran/heat_transfer/source/Boundary.s: D_/yanghao/code/Fortran/heat_transfer/source/Boundary.f90.s
+.PHONY : D_/yanghao/code/Fortran/heat_transfer/source/Boundary.s
+
+# target to generate assembly for a file
+D_/yanghao/code/Fortran/heat_transfer/source/Boundary.f90.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/Boundary.f90.s
+.PHONY : D_/yanghao/code/Fortran/heat_transfer/source/Boundary.f90.s
+
 D_/yanghao/code/Fortran/heat_transfer/source/CFL.obj: D_/yanghao/code/Fortran/heat_transfer/source/CFL.f90.obj
 .PHONY : D_/yanghao/code/Fortran/heat_transfer/source/CFL.obj
 
@@ -152,6 +176,54 @@ D_/yanghao/code/Fortran/heat_transfer/source/CFL.f90.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/CFL.f90.s
 .PHONY : D_/yanghao/code/Fortran/heat_transfer/source/CFL.f90.s
 
+D_/yanghao/code/Fortran/heat_transfer/source/Flux.obj: D_/yanghao/code/Fortran/heat_transfer/source/Flux.f90.obj
+.PHONY : D_/yanghao/code/Fortran/heat_transfer/source/Flux.obj
+
+# target to build an object file
+D_/yanghao/code/Fortran/heat_transfer/source/Flux.f90.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/Flux.f90.obj
+.PHONY : D_/yanghao/code/Fortran/heat_transfer/source/Flux.f90.obj
+
+D_/yanghao/code/Fortran/heat_transfer/source/Flux.i: D_/yanghao/code/Fortran/heat_transfer/source/Flux.f90.i
+.PHONY : D_/yanghao/code/Fortran/heat_transfer/source/Flux.i
+
+# target to preprocess a source file
+D_/yanghao/code/Fortran/heat_transfer/source/Flux.f90.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/Flux.f90.i
+.PHONY : D_/yanghao/code/Fortran/heat_transfer/source/Flux.f90.i
+
+D_/yanghao/code/Fortran/heat_transfer/source/Flux.s: D_/yanghao/code/Fortran/heat_transfer/source/Flux.f90.s
+.PHONY : D_/yanghao/code/Fortran/heat_transfer/source/Flux.s
+
+# target to generate assembly for a file
+D_/yanghao/code/Fortran/heat_transfer/source/Flux.f90.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/Flux.f90.s
+.PHONY : D_/yanghao/code/Fortran/heat_transfer/source/Flux.f90.s
+
+D_/yanghao/code/Fortran/heat_transfer/source/block_Type_Def.obj: D_/yanghao/code/Fortran/heat_transfer/source/block_Type_Def.f90.obj
+.PHONY : D_/yanghao/code/Fortran/heat_transfer/source/block_Type_Def.obj
+
+# target to build an object file
+D_/yanghao/code/Fortran/heat_transfer/source/block_Type_Def.f90.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/block_Type_Def.f90.obj
+.PHONY : D_/yanghao/code/Fortran/heat_transfer/source/block_Type_Def.f90.obj
+
+D_/yanghao/code/Fortran/heat_transfer/source/block_Type_Def.i: D_/yanghao/code/Fortran/heat_transfer/source/block_Type_Def.f90.i
+.PHONY : D_/yanghao/code/Fortran/heat_transfer/source/block_Type_Def.i
+
+# target to preprocess a source file
+D_/yanghao/code/Fortran/heat_transfer/source/block_Type_Def.f90.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/block_Type_Def.f90.i
+.PHONY : D_/yanghao/code/Fortran/heat_transfer/source/block_Type_Def.f90.i
+
+D_/yanghao/code/Fortran/heat_transfer/source/block_Type_Def.s: D_/yanghao/code/Fortran/heat_transfer/source/block_Type_Def.f90.s
+.PHONY : D_/yanghao/code/Fortran/heat_transfer/source/block_Type_Def.s
+
+# target to generate assembly for a file
+D_/yanghao/code/Fortran/heat_transfer/source/block_Type_Def.f90.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/block_Type_Def.f90.s
+.PHONY : D_/yanghao/code/Fortran/heat_transfer/source/block_Type_Def.f90.s
+
 D_/yanghao/code/Fortran/heat_transfer/source/const_Var.obj: D_/yanghao/code/Fortran/heat_transfer/source/const_Var.f90.obj
 .PHONY : D_/yanghao/code/Fortran/heat_transfer/source/const_Var.obj
 
@@ -175,6 +247,30 @@ D_/yanghao/code/Fortran/heat_transfer/source/const_Var.s: D_/yanghao/code/Fortra
 D_/yanghao/code/Fortran/heat_transfer/source/const_Var.f90.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/const_Var.f90.s
 .PHONY : D_/yanghao/code/Fortran/heat_transfer/source/const_Var.f90.s
+
+D_/yanghao/code/Fortran/heat_transfer/source/debug.obj: D_/yanghao/code/Fortran/heat_transfer/source/debug.f90.obj
+.PHONY : D_/yanghao/code/Fortran/heat_transfer/source/debug.obj
+
+# target to build an object file
+D_/yanghao/code/Fortran/heat_transfer/source/debug.f90.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/debug.f90.obj
+.PHONY : D_/yanghao/code/Fortran/heat_transfer/source/debug.f90.obj
+
+D_/yanghao/code/Fortran/heat_transfer/source/debug.i: D_/yanghao/code/Fortran/heat_transfer/source/debug.f90.i
+.PHONY : D_/yanghao/code/Fortran/heat_transfer/source/debug.i
+
+# target to preprocess a source file
+D_/yanghao/code/Fortran/heat_transfer/source/debug.f90.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/debug.f90.i
+.PHONY : D_/yanghao/code/Fortran/heat_transfer/source/debug.f90.i
+
+D_/yanghao/code/Fortran/heat_transfer/source/debug.s: D_/yanghao/code/Fortran/heat_transfer/source/debug.f90.s
+.PHONY : D_/yanghao/code/Fortran/heat_transfer/source/debug.s
+
+# target to generate assembly for a file
+D_/yanghao/code/Fortran/heat_transfer/source/debug.f90.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/debug.f90.s
+.PHONY : D_/yanghao/code/Fortran/heat_transfer/source/debug.f90.s
 
 D_/yanghao/code/Fortran/heat_transfer/source/global_Var.obj: D_/yanghao/code/Fortran/heat_transfer/source/global_Var.f90.obj
 .PHONY : D_/yanghao/code/Fortran/heat_transfer/source/global_Var.obj
@@ -368,54 +464,6 @@ D_/yanghao/code/Fortran/heat_transfer/source/residual.f90.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/residual.f90.s
 .PHONY : D_/yanghao/code/Fortran/heat_transfer/source/residual.f90.s
 
-D_/yanghao/code/Fortran/heat_transfer/source/type_Def.obj: D_/yanghao/code/Fortran/heat_transfer/source/type_Def.f90.obj
-.PHONY : D_/yanghao/code/Fortran/heat_transfer/source/type_Def.obj
-
-# target to build an object file
-D_/yanghao/code/Fortran/heat_transfer/source/type_Def.f90.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/type_Def.f90.obj
-.PHONY : D_/yanghao/code/Fortran/heat_transfer/source/type_Def.f90.obj
-
-D_/yanghao/code/Fortran/heat_transfer/source/type_Def.i: D_/yanghao/code/Fortran/heat_transfer/source/type_Def.f90.i
-.PHONY : D_/yanghao/code/Fortran/heat_transfer/source/type_Def.i
-
-# target to preprocess a source file
-D_/yanghao/code/Fortran/heat_transfer/source/type_Def.f90.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/type_Def.f90.i
-.PHONY : D_/yanghao/code/Fortran/heat_transfer/source/type_Def.f90.i
-
-D_/yanghao/code/Fortran/heat_transfer/source/type_Def.s: D_/yanghao/code/Fortran/heat_transfer/source/type_Def.f90.s
-.PHONY : D_/yanghao/code/Fortran/heat_transfer/source/type_Def.s
-
-# target to generate assembly for a file
-D_/yanghao/code/Fortran/heat_transfer/source/type_Def.f90.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/type_Def.f90.s
-.PHONY : D_/yanghao/code/Fortran/heat_transfer/source/type_Def.f90.s
-
-D_/yanghao/code/Fortran/heat_transfer/source/upgrade_Boundary.obj: D_/yanghao/code/Fortran/heat_transfer/source/upgrade_Boundary.f90.obj
-.PHONY : D_/yanghao/code/Fortran/heat_transfer/source/upgrade_Boundary.obj
-
-# target to build an object file
-D_/yanghao/code/Fortran/heat_transfer/source/upgrade_Boundary.f90.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/upgrade_Boundary.f90.obj
-.PHONY : D_/yanghao/code/Fortran/heat_transfer/source/upgrade_Boundary.f90.obj
-
-D_/yanghao/code/Fortran/heat_transfer/source/upgrade_Boundary.i: D_/yanghao/code/Fortran/heat_transfer/source/upgrade_Boundary.f90.i
-.PHONY : D_/yanghao/code/Fortran/heat_transfer/source/upgrade_Boundary.i
-
-# target to preprocess a source file
-D_/yanghao/code/Fortran/heat_transfer/source/upgrade_Boundary.f90.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/upgrade_Boundary.f90.i
-.PHONY : D_/yanghao/code/Fortran/heat_transfer/source/upgrade_Boundary.f90.i
-
-D_/yanghao/code/Fortran/heat_transfer/source/upgrade_Boundary.s: D_/yanghao/code/Fortran/heat_transfer/source/upgrade_Boundary.f90.s
-.PHONY : D_/yanghao/code/Fortran/heat_transfer/source/upgrade_Boundary.s
-
-# target to generate assembly for a file
-D_/yanghao/code/Fortran/heat_transfer/source/upgrade_Boundary.f90.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/upgrade_Boundary.f90.s
-.PHONY : D_/yanghao/code/Fortran/heat_transfer/source/upgrade_Boundary.f90.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -425,12 +473,24 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... main
+	@echo ... D_/yanghao/code/Fortran/heat_transfer/source/Boundary.obj
+	@echo ... D_/yanghao/code/Fortran/heat_transfer/source/Boundary.i
+	@echo ... D_/yanghao/code/Fortran/heat_transfer/source/Boundary.s
 	@echo ... D_/yanghao/code/Fortran/heat_transfer/source/CFL.obj
 	@echo ... D_/yanghao/code/Fortran/heat_transfer/source/CFL.i
 	@echo ... D_/yanghao/code/Fortran/heat_transfer/source/CFL.s
+	@echo ... D_/yanghao/code/Fortran/heat_transfer/source/Flux.obj
+	@echo ... D_/yanghao/code/Fortran/heat_transfer/source/Flux.i
+	@echo ... D_/yanghao/code/Fortran/heat_transfer/source/Flux.s
+	@echo ... D_/yanghao/code/Fortran/heat_transfer/source/block_Type_Def.obj
+	@echo ... D_/yanghao/code/Fortran/heat_transfer/source/block_Type_Def.i
+	@echo ... D_/yanghao/code/Fortran/heat_transfer/source/block_Type_Def.s
 	@echo ... D_/yanghao/code/Fortran/heat_transfer/source/const_Var.obj
 	@echo ... D_/yanghao/code/Fortran/heat_transfer/source/const_Var.i
 	@echo ... D_/yanghao/code/Fortran/heat_transfer/source/const_Var.s
+	@echo ... D_/yanghao/code/Fortran/heat_transfer/source/debug.obj
+	@echo ... D_/yanghao/code/Fortran/heat_transfer/source/debug.i
+	@echo ... D_/yanghao/code/Fortran/heat_transfer/source/debug.s
 	@echo ... D_/yanghao/code/Fortran/heat_transfer/source/global_Var.obj
 	@echo ... D_/yanghao/code/Fortran/heat_transfer/source/global_Var.i
 	@echo ... D_/yanghao/code/Fortran/heat_transfer/source/global_Var.s
@@ -455,12 +515,6 @@ help:
 	@echo ... D_/yanghao/code/Fortran/heat_transfer/source/residual.obj
 	@echo ... D_/yanghao/code/Fortran/heat_transfer/source/residual.i
 	@echo ... D_/yanghao/code/Fortran/heat_transfer/source/residual.s
-	@echo ... D_/yanghao/code/Fortran/heat_transfer/source/type_Def.obj
-	@echo ... D_/yanghao/code/Fortran/heat_transfer/source/type_Def.i
-	@echo ... D_/yanghao/code/Fortran/heat_transfer/source/type_Def.s
-	@echo ... D_/yanghao/code/Fortran/heat_transfer/source/upgrade_Boundary.obj
-	@echo ... D_/yanghao/code/Fortran/heat_transfer/source/upgrade_Boundary.i
-	@echo ... D_/yanghao/code/Fortran/heat_transfer/source/upgrade_Boundary.s
 .PHONY : help
 
 

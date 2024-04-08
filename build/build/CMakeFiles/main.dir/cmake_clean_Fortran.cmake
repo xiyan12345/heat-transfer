@@ -16,6 +16,14 @@ FILE(REMOVE
   "CONST_VAR.mod"
   "CMakeFiles/main.dir/const_var.mod.stamp"
 
+  "debug.mod"
+  "DEBUG.mod"
+  "CMakeFiles/main.dir/debug.mod.stamp"
+
+  "flux.mod"
+  "FLUX.mod"
+  "CMakeFiles/main.dir/flux.mod.stamp"
+
   "global_var.mod"
   "GLOBAL_VAR.mod"
   "CMakeFiles/main.dir/global_var.mod.stamp"

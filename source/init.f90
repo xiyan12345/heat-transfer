@@ -33,6 +33,9 @@
             do m = 1, num_Block
                 B => mesh(m)
                 B%U(:,1:B%nx-1,1:B%ny-1,1:B%nz-1) = initT_Iso_T
+                ! if (m ==2 ) then 
+                !     B%U(:,1:B%nx-1,1:B%ny-1,1:B%nz-1) = 500._dp
+                ! end if
             end do
         end subroutine initT_Iso_Field
         

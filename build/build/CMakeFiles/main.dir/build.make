@@ -68,9 +68,22 @@ include CMakeFiles/main.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main.dir/flags.make
 
+CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/Boundary.f90.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/Boundary.f90.obj: D:/yanghao/code/Fortran/heat_transfer/source/Boundary.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\yanghao\code\Fortran\heat_transfer\build\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building Fortran object CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/Boundary.f90.obj"
+	D:\yanghao\code\C++\compiler\mingw64\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c D:\yanghao\code\Fortran\heat_transfer\source\Boundary.f90 -o CMakeFiles\main.dir\D_\yanghao\code\Fortran\heat_transfer\source\Boundary.f90.obj
+
+CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/Boundary.f90.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/Boundary.f90.i"
+	D:\yanghao\code\C++\compiler\mingw64\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E D:\yanghao\code\Fortran\heat_transfer\source\Boundary.f90 > CMakeFiles\main.dir\D_\yanghao\code\Fortran\heat_transfer\source\Boundary.f90.i
+
+CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/Boundary.f90.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/Boundary.f90.s"
+	D:\yanghao\code\C++\compiler\mingw64\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S D:\yanghao\code\Fortran\heat_transfer\source\Boundary.f90 -o CMakeFiles\main.dir\D_\yanghao\code\Fortran\heat_transfer\source\Boundary.f90.s
+
 CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/CFL.f90.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/CFL.f90.obj: D:/yanghao/code/Fortran/heat_transfer/source/CFL.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\yanghao\code\Fortran\heat_transfer\build\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building Fortran object CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/CFL.f90.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\yanghao\code\Fortran\heat_transfer\build\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building Fortran object CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/CFL.f90.obj"
 	D:\yanghao\code\C++\compiler\mingw64\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c D:\yanghao\code\Fortran\heat_transfer\source\CFL.f90 -o CMakeFiles\main.dir\D_\yanghao\code\Fortran\heat_transfer\source\CFL.f90.obj
 
 CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/CFL.f90.i: cmake_force
@@ -81,9 +94,35 @@ CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/CFL.f90.s: cmak
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/CFL.f90.s"
 	D:\yanghao\code\C++\compiler\mingw64\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S D:\yanghao\code\Fortran\heat_transfer\source\CFL.f90 -o CMakeFiles\main.dir\D_\yanghao\code\Fortran\heat_transfer\source\CFL.f90.s
 
+CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/Flux.f90.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/Flux.f90.obj: D:/yanghao/code/Fortran/heat_transfer/source/Flux.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\yanghao\code\Fortran\heat_transfer\build\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building Fortran object CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/Flux.f90.obj"
+	D:\yanghao\code\C++\compiler\mingw64\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c D:\yanghao\code\Fortran\heat_transfer\source\Flux.f90 -o CMakeFiles\main.dir\D_\yanghao\code\Fortran\heat_transfer\source\Flux.f90.obj
+
+CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/Flux.f90.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/Flux.f90.i"
+	D:\yanghao\code\C++\compiler\mingw64\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E D:\yanghao\code\Fortran\heat_transfer\source\Flux.f90 > CMakeFiles\main.dir\D_\yanghao\code\Fortran\heat_transfer\source\Flux.f90.i
+
+CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/Flux.f90.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/Flux.f90.s"
+	D:\yanghao\code\C++\compiler\mingw64\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S D:\yanghao\code\Fortran\heat_transfer\source\Flux.f90 -o CMakeFiles\main.dir\D_\yanghao\code\Fortran\heat_transfer\source\Flux.f90.s
+
+CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/block_Type_Def.f90.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/block_Type_Def.f90.obj: D:/yanghao/code/Fortran/heat_transfer/source/block_Type_Def.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\yanghao\code\Fortran\heat_transfer\build\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building Fortran object CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/block_Type_Def.f90.obj"
+	D:\yanghao\code\C++\compiler\mingw64\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c D:\yanghao\code\Fortran\heat_transfer\source\block_Type_Def.f90 -o CMakeFiles\main.dir\D_\yanghao\code\Fortran\heat_transfer\source\block_Type_Def.f90.obj
+
+CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/block_Type_Def.f90.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/block_Type_Def.f90.i"
+	D:\yanghao\code\C++\compiler\mingw64\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E D:\yanghao\code\Fortran\heat_transfer\source\block_Type_Def.f90 > CMakeFiles\main.dir\D_\yanghao\code\Fortran\heat_transfer\source\block_Type_Def.f90.i
+
+CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/block_Type_Def.f90.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/block_Type_Def.f90.s"
+	D:\yanghao\code\C++\compiler\mingw64\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S D:\yanghao\code\Fortran\heat_transfer\source\block_Type_Def.f90 -o CMakeFiles\main.dir\D_\yanghao\code\Fortran\heat_transfer\source\block_Type_Def.f90.s
+
 CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/const_Var.f90.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/const_Var.f90.obj: D:/yanghao/code/Fortran/heat_transfer/source/const_Var.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\yanghao\code\Fortran\heat_transfer\build\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building Fortran object CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/const_Var.f90.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\yanghao\code\Fortran\heat_transfer\build\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building Fortran object CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/const_Var.f90.obj"
 	D:\yanghao\code\C++\compiler\mingw64\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c D:\yanghao\code\Fortran\heat_transfer\source\const_Var.f90 -o CMakeFiles\main.dir\D_\yanghao\code\Fortran\heat_transfer\source\const_Var.f90.obj
 
 CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/const_Var.f90.i: cmake_force
@@ -94,9 +133,22 @@ CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/const_Var.f90.s
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/const_Var.f90.s"
 	D:\yanghao\code\C++\compiler\mingw64\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S D:\yanghao\code\Fortran\heat_transfer\source\const_Var.f90 -o CMakeFiles\main.dir\D_\yanghao\code\Fortran\heat_transfer\source\const_Var.f90.s
 
+CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/debug.f90.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/debug.f90.obj: D:/yanghao/code/Fortran/heat_transfer/source/debug.f90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\yanghao\code\Fortran\heat_transfer\build\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building Fortran object CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/debug.f90.obj"
+	D:\yanghao\code\C++\compiler\mingw64\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c D:\yanghao\code\Fortran\heat_transfer\source\debug.f90 -o CMakeFiles\main.dir\D_\yanghao\code\Fortran\heat_transfer\source\debug.f90.obj
+
+CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/debug.f90.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/debug.f90.i"
+	D:\yanghao\code\C++\compiler\mingw64\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E D:\yanghao\code\Fortran\heat_transfer\source\debug.f90 > CMakeFiles\main.dir\D_\yanghao\code\Fortran\heat_transfer\source\debug.f90.i
+
+CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/debug.f90.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/debug.f90.s"
+	D:\yanghao\code\C++\compiler\mingw64\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S D:\yanghao\code\Fortran\heat_transfer\source\debug.f90 -o CMakeFiles\main.dir\D_\yanghao\code\Fortran\heat_transfer\source\debug.f90.s
+
 CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/global_Var.f90.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/global_Var.f90.obj: D:/yanghao/code/Fortran/heat_transfer/source/global_Var.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\yanghao\code\Fortran\heat_transfer\build\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building Fortran object CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/global_Var.f90.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\yanghao\code\Fortran\heat_transfer\build\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building Fortran object CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/global_Var.f90.obj"
 	D:\yanghao\code\C++\compiler\mingw64\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c D:\yanghao\code\Fortran\heat_transfer\source\global_Var.f90 -o CMakeFiles\main.dir\D_\yanghao\code\Fortran\heat_transfer\source\global_Var.f90.obj
 
 CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/global_Var.f90.i: cmake_force
@@ -109,7 +161,7 @@ CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/global_Var.f90.
 
 CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/init.f90.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/init.f90.obj: D:/yanghao/code/Fortran/heat_transfer/source/init.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\yanghao\code\Fortran\heat_transfer\build\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building Fortran object CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/init.f90.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\yanghao\code\Fortran\heat_transfer\build\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building Fortran object CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/init.f90.obj"
 	D:\yanghao\code\C++\compiler\mingw64\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c D:\yanghao\code\Fortran\heat_transfer\source\init.f90 -o CMakeFiles\main.dir\D_\yanghao\code\Fortran\heat_transfer\source\init.f90.obj
 
 CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/init.f90.i: cmake_force
@@ -122,7 +174,7 @@ CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/init.f90.s: cma
 
 CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/main.f90.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/main.f90.obj: D:/yanghao/code/Fortran/heat_transfer/source/main.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\yanghao\code\Fortran\heat_transfer\build\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building Fortran object CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/main.f90.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\yanghao\code\Fortran\heat_transfer\build\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building Fortran object CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/main.f90.obj"
 	D:\yanghao\code\C++\compiler\mingw64\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c D:\yanghao\code\Fortran\heat_transfer\source\main.f90 -o CMakeFiles\main.dir\D_\yanghao\code\Fortran\heat_transfer\source\main.f90.obj
 
 CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/main.f90.i: cmake_force
@@ -135,7 +187,7 @@ CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/main.f90.s: cma
 
 CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/post_Process.f90.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/post_Process.f90.obj: D:/yanghao/code/Fortran/heat_transfer/source/post_Process.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\yanghao\code\Fortran\heat_transfer\build\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building Fortran object CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/post_Process.f90.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\yanghao\code\Fortran\heat_transfer\build\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building Fortran object CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/post_Process.f90.obj"
 	D:\yanghao\code\C++\compiler\mingw64\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c D:\yanghao\code\Fortran\heat_transfer\source\post_Process.f90 -o CMakeFiles\main.dir\D_\yanghao\code\Fortran\heat_transfer\source\post_Process.f90.obj
 
 CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/post_Process.f90.i: cmake_force
@@ -148,7 +200,7 @@ CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/post_Process.f9
 
 CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/precision_EC.f90.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/precision_EC.f90.obj: D:/yanghao/code/Fortran/heat_transfer/source/precision_EC.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\yanghao\code\Fortran\heat_transfer\build\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building Fortran object CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/precision_EC.f90.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\yanghao\code\Fortran\heat_transfer\build\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building Fortran object CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/precision_EC.f90.obj"
 	D:\yanghao\code\C++\compiler\mingw64\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c D:\yanghao\code\Fortran\heat_transfer\source\precision_EC.f90 -o CMakeFiles\main.dir\D_\yanghao\code\Fortran\heat_transfer\source\precision_EC.f90.obj
 
 CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/precision_EC.f90.i: cmake_force
@@ -161,7 +213,7 @@ CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/precision_EC.f9
 
 CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/read_Mesh.f90.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/read_Mesh.f90.obj: D:/yanghao/code/Fortran/heat_transfer/source/read_Mesh.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\yanghao\code\Fortran\heat_transfer\build\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building Fortran object CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/read_Mesh.f90.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\yanghao\code\Fortran\heat_transfer\build\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building Fortran object CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/read_Mesh.f90.obj"
 	D:\yanghao\code\C++\compiler\mingw64\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c D:\yanghao\code\Fortran\heat_transfer\source\read_Mesh.f90 -o CMakeFiles\main.dir\D_\yanghao\code\Fortran\heat_transfer\source\read_Mesh.f90.obj
 
 CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/read_Mesh.f90.i: cmake_force
@@ -174,7 +226,7 @@ CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/read_Mesh.f90.s
 
 CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/read_Parameter.f90.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/read_Parameter.f90.obj: D:/yanghao/code/Fortran/heat_transfer/source/read_Parameter.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\yanghao\code\Fortran\heat_transfer\build\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building Fortran object CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/read_Parameter.f90.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\yanghao\code\Fortran\heat_transfer\build\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building Fortran object CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/read_Parameter.f90.obj"
 	D:\yanghao\code\C++\compiler\mingw64\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c D:\yanghao\code\Fortran\heat_transfer\source\read_Parameter.f90 -o CMakeFiles\main.dir\D_\yanghao\code\Fortran\heat_transfer\source\read_Parameter.f90.obj
 
 CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/read_Parameter.f90.i: cmake_force
@@ -187,7 +239,7 @@ CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/read_Parameter.
 
 CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/residual.f90.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/residual.f90.obj: D:/yanghao/code/Fortran/heat_transfer/source/residual.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\yanghao\code\Fortran\heat_transfer\build\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building Fortran object CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/residual.f90.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\yanghao\code\Fortran\heat_transfer\build\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building Fortran object CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/residual.f90.obj"
 	D:\yanghao\code\C++\compiler\mingw64\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c D:\yanghao\code\Fortran\heat_transfer\source\residual.f90 -o CMakeFiles\main.dir\D_\yanghao\code\Fortran\heat_transfer\source\residual.f90.obj
 
 CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/residual.f90.i: cmake_force
@@ -198,36 +250,14 @@ CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/residual.f90.s:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/residual.f90.s"
 	D:\yanghao\code\C++\compiler\mingw64\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S D:\yanghao\code\Fortran\heat_transfer\source\residual.f90 -o CMakeFiles\main.dir\D_\yanghao\code\Fortran\heat_transfer\source\residual.f90.s
 
-CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/type_Def.f90.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/type_Def.f90.obj: D:/yanghao/code/Fortran/heat_transfer/source/type_Def.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\yanghao\code\Fortran\heat_transfer\build\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building Fortran object CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/type_Def.f90.obj"
-	D:\yanghao\code\C++\compiler\mingw64\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c D:\yanghao\code\Fortran\heat_transfer\source\type_Def.f90 -o CMakeFiles\main.dir\D_\yanghao\code\Fortran\heat_transfer\source\type_Def.f90.obj
-
-CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/type_Def.f90.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/type_Def.f90.i"
-	D:\yanghao\code\C++\compiler\mingw64\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E D:\yanghao\code\Fortran\heat_transfer\source\type_Def.f90 > CMakeFiles\main.dir\D_\yanghao\code\Fortran\heat_transfer\source\type_Def.f90.i
-
-CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/type_Def.f90.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/type_Def.f90.s"
-	D:\yanghao\code\C++\compiler\mingw64\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S D:\yanghao\code\Fortran\heat_transfer\source\type_Def.f90 -o CMakeFiles\main.dir\D_\yanghao\code\Fortran\heat_transfer\source\type_Def.f90.s
-
-CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/upgrade_Boundary.f90.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/upgrade_Boundary.f90.obj: D:/yanghao/code/Fortran/heat_transfer/source/upgrade_Boundary.f90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\yanghao\code\Fortran\heat_transfer\build\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building Fortran object CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/upgrade_Boundary.f90.obj"
-	D:\yanghao\code\C++\compiler\mingw64\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c D:\yanghao\code\Fortran\heat_transfer\source\upgrade_Boundary.f90 -o CMakeFiles\main.dir\D_\yanghao\code\Fortran\heat_transfer\source\upgrade_Boundary.f90.obj
-
-CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/upgrade_Boundary.f90.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/upgrade_Boundary.f90.i"
-	D:\yanghao\code\C++\compiler\mingw64\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E D:\yanghao\code\Fortran\heat_transfer\source\upgrade_Boundary.f90 > CMakeFiles\main.dir\D_\yanghao\code\Fortran\heat_transfer\source\upgrade_Boundary.f90.i
-
-CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/upgrade_Boundary.f90.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/upgrade_Boundary.f90.s"
-	D:\yanghao\code\C++\compiler\mingw64\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S D:\yanghao\code\Fortran\heat_transfer\source\upgrade_Boundary.f90 -o CMakeFiles\main.dir\D_\yanghao\code\Fortran\heat_transfer\source\upgrade_Boundary.f90.s
-
 # Object files for target main
 main_OBJECTS = \
+"CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/Boundary.f90.obj" \
 "CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/CFL.f90.obj" \
+"CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/Flux.f90.obj" \
+"CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/block_Type_Def.f90.obj" \
 "CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/const_Var.f90.obj" \
+"CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/debug.f90.obj" \
 "CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/global_Var.f90.obj" \
 "CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/init.f90.obj" \
 "CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/main.f90.obj" \
@@ -235,15 +265,17 @@ main_OBJECTS = \
 "CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/precision_EC.f90.obj" \
 "CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/read_Mesh.f90.obj" \
 "CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/read_Parameter.f90.obj" \
-"CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/residual.f90.obj" \
-"CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/type_Def.f90.obj" \
-"CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/upgrade_Boundary.f90.obj"
+"CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/residual.f90.obj"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
+D:/yanghao/code/Fortran/heat_transfer/bin/main.exe: CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/Boundary.f90.obj
 D:/yanghao/code/Fortran/heat_transfer/bin/main.exe: CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/CFL.f90.obj
+D:/yanghao/code/Fortran/heat_transfer/bin/main.exe: CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/Flux.f90.obj
+D:/yanghao/code/Fortran/heat_transfer/bin/main.exe: CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/block_Type_Def.f90.obj
 D:/yanghao/code/Fortran/heat_transfer/bin/main.exe: CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/const_Var.f90.obj
+D:/yanghao/code/Fortran/heat_transfer/bin/main.exe: CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/debug.f90.obj
 D:/yanghao/code/Fortran/heat_transfer/bin/main.exe: CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/global_Var.f90.obj
 D:/yanghao/code/Fortran/heat_transfer/bin/main.exe: CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/init.f90.obj
 D:/yanghao/code/Fortran/heat_transfer/bin/main.exe: CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/main.f90.obj
@@ -252,12 +284,10 @@ D:/yanghao/code/Fortran/heat_transfer/bin/main.exe: CMakeFiles/main.dir/D_/yangh
 D:/yanghao/code/Fortran/heat_transfer/bin/main.exe: CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/read_Mesh.f90.obj
 D:/yanghao/code/Fortran/heat_transfer/bin/main.exe: CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/read_Parameter.f90.obj
 D:/yanghao/code/Fortran/heat_transfer/bin/main.exe: CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/residual.f90.obj
-D:/yanghao/code/Fortran/heat_transfer/bin/main.exe: CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/type_Def.f90.obj
-D:/yanghao/code/Fortran/heat_transfer/bin/main.exe: CMakeFiles/main.dir/D_/yanghao/code/Fortran/heat_transfer/source/upgrade_Boundary.f90.obj
 D:/yanghao/code/Fortran/heat_transfer/bin/main.exe: CMakeFiles/main.dir/build.make
 D:/yanghao/code/Fortran/heat_transfer/bin/main.exe: CMakeFiles/main.dir/objects1.rsp
 D:/yanghao/code/Fortran/heat_transfer/bin/main.exe: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\yanghao\code\Fortran\heat_transfer\build\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking Fortran executable D:\yanghao\code\Fortran\heat_transfer\bin\main.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\yanghao\code\Fortran\heat_transfer\build\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking Fortran executable D:\yanghao\code\Fortran\heat_transfer\bin\main.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\main.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

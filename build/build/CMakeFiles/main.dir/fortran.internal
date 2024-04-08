@@ -4,6 +4,8 @@ provides
  boundary.mod
  cfl.mod
  const_var.mod
+ debug.mod
+ flux.mod
  global_var.mod
  init.mod
  post_process.mod
